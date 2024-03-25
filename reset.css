@@ -1,0 +1,59 @@
+/* Reset CSS */
+
+/* Establece el valor predeterminado de box-sizing a border-box */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Elimina los márgenes y el relleno por defecto */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Establece una tipografía base */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Elimina la decoración del listado y los puntos de viñeta */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Elimina la decoración de los enlaces */
+a {
+    text-decoration: none;
+}
+
+/* Establece la alineación vertical al contenido */
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+    vertical-align: middle;
+}
